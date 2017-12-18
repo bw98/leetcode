@@ -1,4 +1,7 @@
 ## leetcode problem classification 
 ## mkdir list:
 #### Array
-    problem1:Two Sum
+    #1:Two Sum
+
+#### HashTable
+    #1:Two Sum
