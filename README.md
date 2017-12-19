@@ -5,3 +5,6 @@
 
 #### HashTable
     #1:Two Sum
+
+#### LinkedList
+    #2:Add Two Numbers
