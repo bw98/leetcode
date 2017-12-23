@@ -1,12 +1,4 @@
-/*************************************************************************
-	> File Name: prob1.cpp
-	> Author: bw98 
-	> Mail: 
-	> Created Time: 2017年12月15日 星期五 19时45分35秒
- ************************************************************************/
- 
 //Runtime: 106 ms
-//First thought: BF
 class Solution {
     public:
     vector<int> twoSum(vector<int>& nums, int target) {             
