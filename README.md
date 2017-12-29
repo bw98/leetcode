@@ -5,6 +5,7 @@
 ## mkdir list:
 #### Array
     #1:Two Sum
+    #4:Median of Two Sorted Arrays
 
 #### HashTable
     #1:Two Sum
