@@ -68,3 +68,35 @@ public:
         }
     }
 };
+
+//Runtime: 59 ms
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int m = nums1.size(), n = nums2.size();
+        if ((m+n)%2 == 0) {
+            return (findKth (nums1, nums2, (m+n)/2) + findKth (nums1, nums2, (m+n)/2+1)) / 2.0;       
+        }else { 
+            return findKth (nums1, nums2, (m+n)/2 + 1);
+        }
+    }
+private:    
+    int findKth(vector<int> a, vector<int> b, int k) {
+        int m = a.size(), n = b.size();
+        if (m > n) {
+            return findKth(b, a, k);
+        }
+        if (m == 0) {
+            return b[k-1];
+        }
+        if (k == 1) {
+            return std::min(a[k-1], b[k-1]);
+        }
+        int i = std::min(k/2, m), j = std::min(k/2, n);
+        if (a[i-1] < b[j-1]) {            
+            return findKth (vector<int>(a.begin()+i, a.end()), b, k-i);
+        }else{
+            return findKth (a, vector<int>(b.begin()+j,b.end()), k-j);
+        }
+    }   
+};
