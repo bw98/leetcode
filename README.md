@@ -13,3 +13,9 @@
 
 #### LinkedList
     #2:Add Two Numbers
+
+#### Divide And Conquer
+    #53:Maximum Subarray
+
+#### Merge k Sorted Lists
+    #23:Merge k Sorted Lists
