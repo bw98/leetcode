@@ -7,9 +7,10 @@
     #1:Two Sum
     #4:Median of Two Sorted Arrays
 
-#### HashTable
+#### Map
     #1:Two Sum
     #3:Longest Substring Without Repeating Characters
+    #5:Longest Palindromic Substring
 
 #### LinkedList
     #2:Add Two Numbers
@@ -17,5 +18,7 @@
 #### Divide And Conquer
     #53:Maximum Subarray
 
-#### Merge k Sorted Lists
+#### Queue/set
+    #3:Longest Substring Without Repeating Characters
+#### priority_queue
     #23:Merge k Sorted Lists
